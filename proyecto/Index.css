@@ -17,7 +17,7 @@
     background-image: url(https://2.bp.blogspot.com/-zZs3XDtNz8k/W9-ksZW8OvI/AAAAAAAACUk/AjJYiIPWYN4rdmc6cNmSqwc6OL-fnefHACLcBGAs/s1600/Alex-Campos-bw-gtr.jpg);
     background-repeat: no-repeat;
     display: block;
-    height: 50vh;
+    height: 75vh;
     background-position: center top;
 }
 img
@@ -33,22 +33,38 @@ h1
     left: 50%;
     transform: translate(-50%, -50%);
     color: white;
+    font-family: 'Parisienne', cursive;
+    /* font-family: 'Sansita Swashed', cursive; */
+    font-size: 4rem;
 }
-
+h2
+{
+    font-family: 'Fredericka the Great', cursive;
+    color: white;
+    border-top-style: dotted
+}
 body
 {
     background-color:#8C8C8C ;
 }
-.caja1
+.contenedor
 {
-    background-color: #484848;
-}
-.col-6 .col-md-4{
-    background-color: #484848;
+margin: 1%;
+background-color: #777777;
+/* padding-left: 5%;
+padding-right: 5%; *//*Opcion1*/
 
+/* padding: 5%; *//*Opcion 2*/
+/*Opcion 3: sin padding*/
 }
+
+/* .col-6 .col-md-4{
+    background-color: green;
+
+} */
 .cuadroDentroContenedor{
     background-color: #B7B7B7;
+    padding: 5%;
 }
 .bloquesContenidoTexto
 {
@@ -66,4 +82,5 @@ body
     /* margin: 3% ;
     padding: 10%; */
 }
+
 
